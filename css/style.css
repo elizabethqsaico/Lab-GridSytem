@@ -1,1 +1,74 @@
-/* Inserta tu codigo aqui */
+ *{
+	outline:1px solid rgba(255,0,0,0.3);
+}
+body{
+	font-family: Arial;
+} 
+img{
+	max-width: 100%;
+}
+header{
+	font-size: 16px;
+}
+header .logo{
+	width: 75px;
+	height: 75px;
+	margin-top: 3%;
+}
+.background-gray{
+	background: #2E2E2E;
+}
+.background-gray-light{
+	background: #BDBDBD;
+}
+.text-white{
+	color: #FFFFFF;
+}
+.text-center{
+	text-align: center;
+}
+.mgt-2{
+	margin-top: 2%;
+}
+.mgb-4{
+	margin-bottom: 4%;
+}
+.pdt-5{
+	padding-top: 5%;
+}
+.mgt-5{
+	margin-top: 5%;
+}
+.mgl-li{
+	margin-left: 10px;
+	margin-right: 5px;
+}
+.list-unstyle{
+	list-style: none;
+	margin:0px;
+	padding: 0px;
+}
+.list-unstyle li{
+	display: inline-block;
+}
+.list-unstyle a{
+	text-decoration: none;
+}
+.list-unstyle li:hover{
+	background: #BDBDBD;
+}
+ .brd-b{
+ 	border-bottom: 2px solid rgba(211, 211, 211, 0.33);
+ 	margin-bottom: 5%;
+ 	padding-bottom: 5%;
+ }
+.thumbs{
+
+}
+.thumbs img{
+	width: 100px;
+	height: 100px;	
+}
+.thumbs p{
+	font-size: 12px;
+}
