@@ -7,7 +7,7 @@ body{
 img{
 	max-width: 100%;
 }
-header{
+header a{
 	font-size: 16px;
 }
 header .logo{
@@ -24,11 +24,26 @@ header .logo{
 .text-white{
 	color: #FFFFFF;
 }
+.text-gray{
+	color: #A4A4A4;
+}
 .text-center{
 	text-align: center;
 }
+.text-left{
+	text-align: left;
+}
+.font-size-12{
+	font-size: 12px;
+}
 .mgt-2{
 	margin-top: 2%;
+}
+.mgb-2{
+	margin-bottom: 2%;
+}
+.mgl-2{
+	margin-left: 2%;
 }
 .mgb-4{
 	margin-bottom: 4%;
@@ -39,9 +54,23 @@ header .logo{
 .mgt-5{
 	margin-top: 5%;
 }
+.mgl-4{
+	margin-left: 4%;
+}
 .mgl-li{
 	margin-left: 10px;
 	margin-right: 5px;
+}
+.display-ib{
+	display: inline-block;
+}
+.display-b{
+	display: block;
+}
+a{
+	text-decoration: none;
+	color: #084B8A;
+	font-size: 12px;
 }
 .list-unstyle{
 	list-style: none;
@@ -58,17 +87,28 @@ header .logo{
 	background: #BDBDBD;
 }
  .brd-b{
- 	border-bottom: 2px solid rgba(211, 211, 211, 0.33);
- 	margin-bottom: 5%;
- 	padding-bottom: 5%;
+ 	border-bottom: 2px solid #A4A4A4;
  }
 .thumbs{
-
+	margin: 5px;
 }
 .thumbs img{
-	width: 100px;
-	height: 100px;	
+	max-width: 100px;
+	max-height: 100px;	
 }
 .thumbs p{
 	font-size: 12px;
+}
+.icons li{
+	display: block;
+}
+.icons div{
+	text-align: left;
+}
+.icons img{
+	width: 10px;
+	height: 10px;
+}
+footer a{
+	color: #6E6E6E;
 }
