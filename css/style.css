@@ -91,10 +91,11 @@ a{
  }
 .thumbs{
 	margin: 5px;
+	max-width: 100px;
+	vertical-align: top;
 }
 .thumbs img{
-	max-width: 100px;
-	max-height: 100px;	
+	max-width: 100%;
 }
 .thumbs p{
 	font-size: 12px;
